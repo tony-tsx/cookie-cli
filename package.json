@@ -1,0 +1,10 @@
+{
+  "name": "@cookie/cli",
+  "version": "0.1.0",
+  "description": "Cookie Command Line",
+  "main": "index.js",
+  "repository": "https://github.com/tony-tsx/cookie-cli.git",
+  "author": "tony-tsx <tony.js@zoho.eu>",
+  "license": "MIT",
+  "private": true
+}
