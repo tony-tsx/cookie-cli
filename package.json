@@ -6,5 +6,27 @@
   "repository": "https://github.com/tony-tsx/cookie-cli.git",
   "author": "tony-tsx <tony.js@zoho.eu>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "cookie": "dist/cookie.config.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/jest": "^25.1.1",
+    "@types/node": "^13.7.0",
+    "@types/npm": "^2.0.31",
+    "@types/package-info": "^3.0.0",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0"
+  },
+  "dependencies": {
+    "@cookie/core": "https://github.com/tony-tsx/cookie-core.git#dev",
+    "commander": "^4.1.1",
+    "humps": "^2.0.1",
+    "inquirer": "^7.0.4",
+    "npm": "^6.13.7",
+    "simple-git": "^1.131.0",
+    "sort-package-json": "^1.39.1"
+  }
 }
