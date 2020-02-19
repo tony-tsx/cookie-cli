@@ -1,0 +1,4 @@
+{
+  "extends": "@cookie",
+  "ignorePatterns": [ "dist", "build", "node_modules" ]
+}
